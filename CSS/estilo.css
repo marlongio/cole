@@ -1,0 +1,256 @@
+section{ width: 180px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+
+}
+
+#lista ul{
+    list-style: none;
+    padding: 8px;
+
+}
+
+#lista ul li a{
+display: block;
+background-color: #04d1e8;
+padding: 5px;
+text-decoration: none;
+color: rgb(50, 3, 239);
+
+}
+
+/*deFnicion del enlace al posisionar el mouse*/
+#lista ul li a:hover {
+    -moz-transform:rotate(-deg);
+    -moz-box-shadow:10px 10px 20px #59a7f0;
+    -webkit-transform:rotate(-deg);
+    -webkit-box-shadow:0px 10px 20px #59a7f0;
+    transform: rotate(-deg);
+    box-shadow:10px 10px 20px #59a7f0;
+    margin-left: 10px;
+
+}
+
+
+/* diseño de formulario de contactanas*/
+
+    table , tr, th, td{
+        border: 1px solid;
+        border-color: black; 
+        padding: 5px;
+
+    }
+
+    /* Importación de fuentes de google fonts */ 
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+
+
+body{
+	height: 100%; 
+	font-family: 'Noto Sans', sans-serif;
+  background-color: #f9ac06; 
+}
+
+
+.contact_form{	
+	width: 460px; 
+  height: auto;
+  margin: 80px auto;
+	border-radius: 10px;  
+	padding-top: 30px;
+	padding-bottom: 20px;  
+  background-color: #fbfbfb; 
+  padding-left: 30px; 
+}
+
+
+input{
+	background-color: #fbfbfb; 
+	width: 408px; 
+	height: 40px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: #4b0be0; 
+	margin-top: 10px;  
+	padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+
+textarea{
+  background-color: #fbfbfb; 
+	width: 405px; 
+	height: 150px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: #4408ac; 
+	margin-top: 10px;  
+	padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+
+
+label{
+  display: block; 
+	float: center; 	
+}
+
+
+button{
+	height: 45px; 
+	padding-left: 5px;
+	padding-right: 5px; 	
+	margin-bottom: 20px; 
+	margin-top: 10px; 	
+	text-transform: uppercase;
+	background-color: #391be1; 
+	border-color: #470bdf; 
+	border-style: solid; 
+	border-radius: 10px;	
+	width: 420px;   
+  cursor: pointer;
+}
+
+
+button p{
+	color: #fff; 
+}
+
+
+span{
+	color: #4e1dd6; 
+}
+
+
+.aviso{
+	font-size: 13px;  
+	color: #0e0e0e;  
+}
+
+
+h1{
+	font-size: 39px;  
+	text-align: letf; 
+	padding-bottom: 20px; 
+	color: #3e3be3;
+}
+
+
+h3{
+	font-size: 16px; 
+	padding-bottom: 30px;
+	color: #0e0e0e;   
+}
+
+
+p{
+	font-size: 14px; 
+	color: #0e0e0e; 
+}
+
+
+::-webkit-input-placeholder {
+ color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+ color: #a8a8a8;
+}
+
+
+.formulario input:focus{
+	outline:0;
+	border: 1px solid #97d848;
+}
+
+
+.formulario textarea:focus{
+	outline:0;
+	border: 1px solid #97d848;
+}
+
+
+/* creado por javiniguez.com, Julio 2019 */
+
+
+/* diseño de banner*/
+
+.responsive-banner {
+	margin: 80px auto;
+	width: 40%;
+	min-width: 230px;
+	max-width: 330px;
+	position: relative;
+	height: auto;
+	min-height: 300px;
+	max-height: 500px;
+	border-radius: 10px;
+	overflow: hidden;
+	background-image: linear-gradient(to bottom right, #D45BA1, #A784E0);
+}
+.container-envelope {
+	padding: 35px 15px;
+	color: #fff;
+}
+img {
+	max-width : 330px;
+	width: 100%;
+	position: relative;
+}
+span:after,
+span:before {
+	content: "";
+	position: absolute;
+	display: block;
+	border-radius: 50%;
+	background-color: rgba(0, 0, 0, 0.1);
+	width: 50px;
+	height: 50px;
+}
+.circle-a:before {
+	width: 500px;
+	height: 500px;
+	top: -300px; left: 52%;
+	-webkit-transform: translate(-50%,0);
+	-ms-transform: translate(-50%,0);
+	transform: translate(-50%,0);
+}
+.circle-a:after {
+	top: 160px;
+	right: 10%;
+}
+.circle-b:before {
+	top: 60%;
+	left: -25px;
+}
+.circle-b:after {
+	width: 150px;
+	height: 150px;
+	bottom: -70px;
+	right: -70px;
+}
+
+
+/* redes sociales*/
+
+<!-- WRONG! -->
+<style type="text/css">
+.fb-post {
+  width: 500px;
+}
+</style>
+<div 
+  class="fb-post"
+  data-href="{your-post-url}">
+</div>
+
+<!-- CORRECT -->
+<div 
+  class="fb-post" 
+  data-width="500"
+  data-href="{your-post-url}">
+</div>
